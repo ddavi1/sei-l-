@@ -22,3 +22,5 @@ quando o repositorio já existir?
         # git restore = Restaurar arquivos/desfazer mudanças.
         # git restore --staged (nome do arquivo) = tira o arquivo da fila de commit ou seja do git add . ou git add (nome do arquivo)
         # git checkout = Navegar entre branches ou restaurar arquivos.
+
+git reset --hard origin/master ou sua branch = ele força o projeto local a ficar igual o projeto remoto, descartando qualquer anteração que você fez sem o commit, qualquer codigo preparado para commit será apagado também, pois ele apagará de todos os locais 
