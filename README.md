@@ -29,3 +29,10 @@ quando o repositorio já existir?
 #git branch (nome da branch) = cria uma nova branch
 #git checkout (nome da branch) = vai para a branch informada
 #git branch -d (nome da branch) = deleta a branch
+
+
+#git stash = Guarda tudo o que foi modificado (mas que já é rastreado pelo Git) para você usar depois
+#git stash -u = Guarda tudo, inclusive arquivos novos que você ainda não deu git add (untracked)
+git stash list = Mostra tudo o que você tem guardado no "baú"
+git stash apply e passar (indice do stash) = Recupera as mudanças, mas mantém uma cópia delas no baú.
+git stash pop = Recupera as mudanças e as deleta do baú (é o mais usado).
